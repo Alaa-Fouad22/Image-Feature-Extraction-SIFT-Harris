@@ -11,15 +11,29 @@ A C++/Qt Computer Vision application for feature extraction (Harris, SIFT) and m
   * Normalized Cross-Correlation (NCC)
 * **Performance Benchmarking:** Real-time reporting of computation times for each algorithmic stage.
 
-## 🖼️ Example Input
-Images like this electronic circuit board are used to test feature detection and matching performance under varying conditions.
+---
 
-![Sample Input Circuit Board](assets/sample_input_circuit.jpg)
+## 📸 Application Output Gallery
 
-## 📸 Application Output
-The graphical user interface displaying the extracted features and matching results.
+### 1. Harris Corner Detection
+Detecting structural corners and unique keypoints using the Harris Operator based on local gradient distribution.
 
-![Qt GUI Application Output](assets/application_output_features.jpg)
+![Harris Corners Output 1](assets/harris.jpeg)
+![Harris Corners Output 2](assets/harris1.jpeg)
+
+### 2. SIFT Feature Extraction
+Extracting robust keypoints and generating scale/rotation-invariant descriptors using the Difference of Gaussians (DoG) pyramid.
+
+![SIFT Keypoints Output](assets/sift.jpeg)
+
+### 3. Feature Matching (SSD & NCC)
+Establishing correspondences between two different images by matching descriptors. The application highlights matched points and visualizes the connecting vectors.
+
+![Feature Matching Output 1](assets/feature_match.jpg)
+![Feature Matching Output 2](assets/feature_match1.jpg)
+![Feature Matching Output 3](assets/feature_match2.jpg)
+
+---
 
 ## 🛠️ Tech Stack & Architecture
 * **Language:** C++ (Object-Oriented Design)
@@ -33,8 +47,3 @@ The graphical user interface displaying the extracted features and matching resu
 * CMake (Version 3.5 or higher)
 * Qt Creator / Qt5 or Qt6 libraries
 * C++ Compiler (GCC, Clang, or MSVC)
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
