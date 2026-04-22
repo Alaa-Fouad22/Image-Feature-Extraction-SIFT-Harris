@@ -29,9 +29,9 @@ Extracting robust keypoints and generating scale/rotation-invariant descriptors 
 ### 3. Feature Matching (SSD & NCC)
 Establishing correspondences between two different images by matching descriptors. The application highlights matched points and visualizes the connecting vectors.
 
-![Feature Matching Output 1](assets/feature_match.jpg)
-![Feature Matching Output 2](assets/feature_match1.jpg)
-![Feature Matching Output 3](assets/feature_match2.jpg)
+![Feature Matching Output 1](assets/feature_match.jpeg)
+![Feature Matching Output 2](assets/feature_match1.jpeg)
+![Feature Matching Output 3](assets/feature_match2.jpeg)
 
 ---
 
